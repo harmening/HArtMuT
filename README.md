@@ -22,6 +22,13 @@ The final HArtMuT (BEM- and FEM-models) including cortical and artefactual sourc
 
 ## [`individualwarp`](individualwarp)<br>
 Artefact model warping for individual head geometries.
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
 
 
 ### Citing HArtMuT
@@ -32,7 +39,7 @@ If you find HArtMuT useful for your research, please consider citing our related
                  Klug, Marius and
                  Gramann, Klaus and
                  Miklody, Daniel},
-      title   = {HArtMuT - Modeling eye and muscle contributors in neuroelectric imaging},elocation-id = {2022.08.19.504507},
+      title   = {HArtMuT - Modeling eye and muscle contributors in neuroelectric imaging},
       year    = {2022},
       doi     = {10.1101/2022.08.19.504507},
       journal = {bioRxiv}
