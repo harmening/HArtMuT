@@ -1,5 +1,5 @@
 # HArtMuT (Head Artefact Model using Tripoles)
-**Supplementary material to the scientific publication (currently in submission)**<br>
+**Supplementary material to the scientific publication "HArtMuT - Modeling eye and muscle contributors in neuroelectric imaging" in Journal of Neural Engineering 19(6), 2022.**<br>
 <img align="right" width="200" src="images/HArtMuT.png">
 ### Who is this HArtMuT?
 Correctly localizing and identifying ICA patterns as brain or non-brain sources relies on head models 
@@ -30,18 +30,24 @@ Artefact model warping for individual head geometries.
 
 
 
+### Integration
+We are currently working on integrating HArtMuT into standard neuoscience pipelines ([OpenMEEG](https://github.com/openmeeg/openmeeg/pull/603), [FieldTrip toolbox](https://github.com/fieldtrip/fieldtrip/issues/2252), DIPFIT (EEGLAB plug-in) planned). Details will follow soon.<br><br>
+
 
 ### Citing HArtMuT
-If you find HArtMuT useful for your research, please consider citing our related [paper](https://www.biorxiv.org/content/10.1101/2022.08.19.504507v1):
+If you find HArtMuT useful for your research, please consider citing our related [paper](https://iopscience.iop.org/article/10.1088/1741-2552/aca8ce):
 ```
-@article{anders2021software,
+@article{Harmening_2022,
       author  = {Harmening, Nils and
                  Klug, Marius and
                  Gramann, Klaus and
                  Miklody, Daniel},
       title   = {HArtMuT - Modeling eye and muscle contributors in neuroelectric imaging},
       year    = {2022},
-      doi     = {10.1101/2022.08.19.504507},
-      journal = {bioRxiv}
+      doi     = {10.1088/1741-2552/aca8ce},
+      journal = {Journal of Neural Engineering}
+      volume  = {19},
+      number  = {6},
+      pages   = {066041},
 }
 ```
