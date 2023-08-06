@@ -16,6 +16,10 @@ non-brain.<br>
 For more details, feel free to visit [https://www.hartmut.berlin](https://hartmut.neuro.tu-berlin.de/).
 
 ### What can I find here?
+## [`artefactatlas`](artefactatlas)<br>
+A HArtMuT parcellation atlas for the purpose of labeling within source localization routines.
+
+
 ## [`HArtMuTmodels`](HArtMuTmodels)<br>
 The final HArtMuT (BEM- and FEM-models) including cortical and artefactual sourcemodels, leadfields and labels.
 
