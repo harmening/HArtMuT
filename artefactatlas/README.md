@@ -9,7 +9,7 @@ For more details on how this atlas has been derived, please refer to [Creation o
 ### Matlab
 Integration into fieldtrip [[1]](#ref1): Download `hartmut.nii.gz` and `hartmut.csv` and place it into a seperate folder of your local fieldtrip installation (e.g. `fieldtrip/template/atlas/hartmut/`)
 ```matlab
-hartmut_atlas  = ft_read_atlas('fieldtrip/template/atlas/hartmut/hartmut.nii.gz')
+hartmut_atlas  = ft_read_atlas('fieldtrip/template/atlas/hartmut/hartmut.csv')
 hartmut_mri    = ft_read_mri('fieldtrip/template/atlas/hartmut/hartmut.nii.gz')
 cfg            = [];
 cfg.roi        = coordinates; % Nx3 vector, coordinates of the POI

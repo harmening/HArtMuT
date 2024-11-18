@@ -1,7 +1,9 @@
 # HArtMuT (Head Artefact Model using Tripoles)
-**Supplementary material to the scientific publication "HArtMuT - Modeling eye and muscle contributors in neuroelectric imaging" in Journal of Neural Engineering 19(6), 2022.**<br>
+**Supplementary material to the scientific publication ["HArtMuT - Modeling eye and muscle contributors in neuroelectric imaging" in Journal of Neural Engineering 19(6), 2022](https://iopscience.iop.org/article/10.1088/1741-2552/aca8ce).**<br>
+
+## Who is this HArtMuT?
 <img align="right" width="200" src="images/HArtMuT.png">
-### Who is this HArtMuT?
+
 Correctly localizing and identifying ICA patterns as brain or non-brain sources relies on head models 
 that so far only take brain sources into account.<br>
 We developed the Head Artefact Model using Tripoles (HArtMuT), a volume
@@ -14,31 +16,31 @@ found that HArtMuT improves localization for all sources, especially
 non-brain.<br>
 
 For more details, feel free to visit [https://www.hartmut.berlin](https://hartmut.neuro.tu-berlin.de/).
-
-### What can I find here?
-## [`artefactatlas`](artefactatlas)<br>
-A HArtMuT parcellation atlas for the purpose of labeling within source localization routines.
+<br>
+<br>
 
 
-## [`HArtMuTmodels`](HArtMuTmodels)<br>
+## What can I find here?
+### [`HArtMuTmodels`](HArtMuTmodels)<br>
 The final HArtMuT (BEM- and FEM-models) including cortical and artefactual sourcemodels, leadfields and labels.
 
+### [`artefactatlas`](artefactatlas)<br>
+A HArtMuT parcellation atlas for the purpose of labeling within source localization routines.
 
-## [`individualwarp`](individualwarp)<br>
+### [`individualwarp`](individualwarp)<br>
 Artefact model warping for individual head geometries.
 <br>
 <br>
+
+
+## Integration
+HArtMuT is already part of [SEEREGA](https://github.com/lrkrol/SEREEGA) and [UnfoldSim.jl](https://github.com/unfoldtoolbox/UnfoldSim.jl), where it can be used to simulate artefacts in synthetic EEG data.<br>
+We are currently working on integrating HArtMuT into standard neuoscience pipelines for source localization: [OpenMEEG](https://github.com/openmeeg/openmeeg/pull/603), [FieldTrip toolbox](https://github.com/fieldtrip/fieldtrip/issues/2252), DIPFIT (EEGLAB plug-in) planned. Details will follow soon.
 <br>
 <br>
-<br>
 
 
-
-### Integration
-We are currently working on integrating HArtMuT into standard neuoscience pipelines ([OpenMEEG](https://github.com/openmeeg/openmeeg/pull/603), [FieldTrip toolbox](https://github.com/fieldtrip/fieldtrip/issues/2252), DIPFIT (EEGLAB plug-in) planned). Details will follow soon.<br><br>
-
-
-### Citing HArtMuT
+## Citing HArtMuT
 If you find HArtMuT useful for your research, please consider citing our related [paper](https://iopscience.iop.org/article/10.1088/1741-2552/aca8ce):
 ```
 @article{Harmening_2022,
